@@ -18,5 +18,7 @@
    on:
      branch: master
    
-   access_key_id: $AWS_ACCESS_KEY
-   secret_access_key: AWS_SECRET_KEY
+   access_key_id: 
+     secure: "Encrypted AKIAWYMCW6P254NDLZ74"
+   secret_access_key:
+     secure: "Encrypted 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"
