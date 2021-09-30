@@ -9,7 +9,7 @@ COPY --chown=node:node package.json .
 RUN npm install 
 
 COPY --chown=node:node . .
-RUN chown node:node ./node_modules/
+#RUN chown node:node ./node_modules/
 RUN chmod 777 .
 USER node 
 CMD ["npm","run", "start"]
